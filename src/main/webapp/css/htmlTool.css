@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+/* CSS Document */
+/*  global  */
+html{font-size:12px;color:#666;}
+body{font-family:Arial,微软雅黑,宋体,Verdana,Candara;padding:0;margin:0;}
+#layout {width: 1360px;text-align: center;height: auto;margin:0 auto;}
+#editor {background-color: #CCC;margin-top: 76px;width: 1350px;text-align: center;margin:0 auto;height: 660px;}
+#ipSelector {height: 50px;width: 870px;margin-left: 240px;top: 190px;position: absolute;}
+#htmlEditor {height: 500px;width: 870px;margin-left: 240px;top: 236px;position: absolute;}
+#buttonbottom {height: 101px;width: 1100px;margin-left: 240px;top: 735px;position: absolute;}
+#componentList {border:1px solid black;height: 479px;width: 230px;margin-left:1120px;top: 250px;position: absolute;overflow-y:auto;font-size:10px;}
+#buttonleft {height: 250px;width: 200px;}
+
+#headerimage {height: 100px;width: auto;text-align: center;margin-bottom: 76px;}
+#sectionlist {height: 400px;width: 200px;border-top-color: #00F;border-right-color: #00F;border-bottom-color: #00F;border-left-color: #00F;/* border-top-style: dashed;border-right-style: dashed;border-bottom-style: dashed;border-left-style: dashed; */}
+#span {float:left;font-weight:bold;}
+#spanSelect {float:left;font-weight:bold;}
+#ipSele {width: 870px;}
+
+.htButton{width: 180px;margin-top: 12px;}
+.btButton1{width: 190px;height: 35px;flout:left;margin-top:20px;	}
+.componentBox .ui-selecting { background: #FECA40; }
+.componentBox .ui-selected { background: #F39814; color: white; }
+.componentBox { list-style-type: none; margin: 0; padding: 0; width: 230px; }
+.componentBox li { cursor:move;margin: 2px; padding: 1px; float: left; width: 68px; height: 50px; font-size: 1em; text-align: center;  overflow:hidden; text-overflow:ellipsis;white-space:nowrap;}

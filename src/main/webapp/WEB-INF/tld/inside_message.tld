@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE taglib
+  PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+  "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>1.2</jsp-version>
+  <short-name>inside-message-tld</short-name>
+  <uri>http://www.isoftstone.com/common/iss-tld</uri>
+  <display-name>jctrans common taglibs</display-name>
+  <description>jctrans-common 1.0 core library</description>
+  
+  <tag>
+    <name>hasUnreadMessage</name>
+    <tag-class>com.jctrans.taglib.message.HasInsideMsgTag</tag-class>
+    <body-content>JSP</body-content>
+  </tag>
+  <tag>
+    <name>unreadMessageCount</name>
+    <tag-class>com.jctrans.taglib.message.InsideMsgCountTag</tag-class>
+    <body-content>EMPTY</body-content>
+  </tag>
+  <tag>
+    <name>hasNoUnreadMessage</name>
+    <tag-class>com.jctrans.taglib.message.HasNoInsideMsgTag</tag-class>
+    <body-content>JSP</body-content>
+  </tag>
+</taglib>

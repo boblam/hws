@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/ims/bean/Course.java=UTF-8
+encoding//src/main/java/com/ims/bean/Student.java=UTF-8
+encoding//src/main/java/com/ims/service/DeptService.java=UTF-8
+encoding//src/main/java/com/ims/service/StuService.java=UTF-8
+encoding//src/main/java/com/ims/service/TeacherService.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/stu/stuHwDetail.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/jsp/tea/teaReleaseHwForm.jsp=UTF-8
+encoding//src/main/webapp/login.jsp=UTF-8
+encoding//src/main/webapp/register.jsp=UTF-8
+encoding/<project>=UTF-8

@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+#mainwindow {
+	width: auto;
+	text-align: center;
+	height: auto;
+}
+#headerimage {
+	height: 100px;
+	width: autopx;
+}
+#headerimage2 {
+	background-color: #dddddd;
+	background-repeat: repeat;
+	width: 1020px;
+	margin-top: 76px;
+	margin-right: auto;
+	margin-left: auto;
+	min-height:650px;
+}
+#LoginText {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	clip: rect(0px,auto,auto,auto);
+	padding-top: 130px;
+	margin-bottom: 150px;
+}
+#LoginLayer {
+	background-color: #666;
+	height: 200px;
+	width: 320px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	clip: rect(0px,auto,auto,auto);
+	padding-top: 130px;
+}
+
+.loginform input[type=submit] {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	background: #64c8ef; /* Old browsers */
+	background: -moz-linear-gradient(top, #64c8ef 0%, #00a2e2 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #64c8ef),
+		color-stop(100%, #00a2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #64c8ef 0%, #00a2e2 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #64c8ef 0%, #00a2e2 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #64c8ef 0%, #00a2e2 100%);
+	/* IE10+ */
+	background: linear-gradient(to bottom, #29A7E1 0%, #00a2e2 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#64c8ef',
+		endColorstr='#00a2e2', GradientType=0); /* IE6-9 */
+	color: #fff;
+	padding: 5px 15px;
+	margin-right: 0;
+	border-radius: 3px;
+	font-size:15px;
+	font-family:Microsoft YaHei,SimHei,Tahoma;
+	/*text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);*/
+}
+
+#buttonConfirm {
+	width:90;
+	margin-left: 445px;
+	float:left;
+}
+
+#buttonClear {
+	margin-left: 30px;
+	width: 70px;
+	float:left;
+}
